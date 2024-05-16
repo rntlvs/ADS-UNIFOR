@@ -30,7 +30,7 @@ public class Disciplina {
     }
 
     //construtores
-        public Disciplina(String codigo, String nome, int semestre) {
+    public Disciplina(String codigo, String nome, int semestre) {
         setCodigo(codigo);
         setNome(nome);
         setSemestre(semestre);

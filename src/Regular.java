@@ -13,9 +13,4 @@ public class Regular extends Aluno {
     public void pagarMensalidade() {
         System.out.println("Aluno(a) regular. Mensalidade paga!");
     }
-
-//    @Override
-//    public String toString() {
-//        return "nome: " + getNome() + ", matricula: " + getMatricula();
-//    }
 }

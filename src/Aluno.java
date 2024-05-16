@@ -29,7 +29,6 @@ public class Aluno extends Pessoa {
 
     //métodos construtores
     public Aluno() {
-
     }
 
     public Aluno(String matricula, String nome, int idade, String cpf) {
@@ -41,15 +40,9 @@ public class Aluno extends Pessoa {
 
     //métodos da classe
     public void pagarMensalidade() {
-
     }
 
     public String infosAluno() {
         return "mat.: " + getMatricula() + " | nome: " + getNome() + " | doc.: " + getCpf() + " | bolsista: " + getTemBolsa();
     }
-
-//    @Override
-//    public String toString() {
-//        return "nome: " + getNome() + ", matricula: " + matricula;
-//    }
 }

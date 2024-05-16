@@ -31,7 +31,6 @@ public abstract class Pessoa {
 
     //métodos contrutores
     public Pessoa() {
-
     }
 
     public Pessoa(String nome, int idade, String cpf) {
@@ -42,7 +41,7 @@ public abstract class Pessoa {
 
     //métodos da classe
     public void fazerAniversario() {
-        setIdade(++idade);
-        System.out.println("Parabéns! \uD83C\uDF82\uD83E\uDD73 " + nome + " acabou de completar " + idade + " anos! ");
+        setIdade(getIdade()+1);
+        System.out.println("Parabéns! \uD83C\uDF82\uD83E\uDD73 " + getNome() + " acabou de completar " + getIdade() + " anos! ");
     }
 }

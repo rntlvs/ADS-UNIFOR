@@ -13,9 +13,4 @@ public class Bolsista extends Aluno {
     public void pagarMensalidade() {
         System.out.println("Aluno(a) bolsista. Isento do pagamento.");
     }
-
-//    @Override
-//    public String toString() {
-//        return "nome: " + getNome() + ", matricula: " + getMatricula();
-//    }
 }

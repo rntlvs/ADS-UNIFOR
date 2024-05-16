@@ -5,15 +5,15 @@ public class Main {
         System.out.println("### MINHA UNIVERSIDADE ###");
         System.out.println("########################## \n");
 
-        Disciplina disciplina001 = new Disciplina("Q28","História da Arte no Brasil", 4);
+        Disciplina disciplina001 = new Disciplina("Q28", "História da Arte no Brasil", 4);
         Disciplina disciplina002 = new Disciplina("K41", "Teoria da Arte e Estética", 3);
         Disciplina disciplina003 = new Disciplina("C07", "Interatividade, Arte e Tecnologia", 5);
 
-        Aluno aluno001 = new Regular( "AL-0687","Celendine Goold", 19, "934.966.563-87");
-        Aluno aluno002 = new Regular( "AL-5292","Flambard Whitfoot", 35, "735.859.293-03");
-        Aluno aluno003 = new Bolsista( "AL-7395","Estella Gardner", 27, "896.355.823-15");
+        Aluno aluno001 = new Regular("AL-0687", "Celendine Goold", 19, "934.966.563-87");
+        Aluno aluno002 = new Regular("AL-5292", "Flambard Whitfoot", 35, "735.859.293-03");
+        Aluno aluno003 = new Bolsista("AL-7395", "Estella Gardner", 27, "896.355.823-15");
 
-        Professor professor001 = new Professor("Cosimo Greenhand",41,"323.941.423-67","Centro de Humanidades");
+        Professor professor001 = new Professor("Cosimo Greenhand", 41, "323.941.423-67", "Centro de Humanidades");
 
         Visitante visitante001 = new Visitante("Adelard Tûk", 22, "880.792.243-66");
         Visitante visitante002 = new Visitante("Jemima Brockhouse", 17, "318.165.653-42");
